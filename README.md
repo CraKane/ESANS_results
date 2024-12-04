@@ -1,16 +1,11 @@
 # ESANS_results
 
 ### 1. separate impacts of interpolation on simple negatives and interpolation on hard negatives(Reviewer1 A6)
-| Method   |      Time Costs      |
-|----------|:-------------:|
-| UNS |  xxx | 
-| PNS |    xxx   |
-| debiased MNS | xxx | 
-| MixGCF | xxx | 
-| FairNeg | xxx | 
-| Ada - $\tau$ | xxx | 
-| ESANS(ours) | xxx | 
-
+| Methods   |      Recall@50      | Recall@200      |
+|----------|:-------------:|:-------------:|
+|  ESANS |  xxx |  xxx | 
+| w/o simple interpolation |    xxx   | xxx | 
+| w/o hard interpolation | xxx |  xxx | 
 
 
 ### 2. Training Cost for ESANS and baseline methods on #A2 dataset(Reviewer1 A1, Reviewer5 A2)
@@ -32,7 +27,7 @@ Our method demonstrates a competitive advantage in terms of time efficiency comp
 
 | Methods   |      Recall@50      | Recall@200      |
 |----------|:-------------:|:-------------:|
-| Tree modals |  xxx |  xxx | 
+|  ESANS |  xxx |  xxx | 
 | w/o visual modal |    xxx   | xxx | 
 | w/o textual modal | xxx |  xxx | 
 | w/o behavior-based modal | xxx |  xxx |
