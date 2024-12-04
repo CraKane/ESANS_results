@@ -25,6 +25,12 @@
 ### 3. Online environment description(Reviewer5 A9)
 Since ESANS is a EBR-based model, the deploy of this model is similar to classical two-tower model. We select the country of #A2 to validate our model and conduct our online experiment from September 13 to 19, 2024. Based on our experience, the increase in traffic during the experiment is highly reliable.
 
+
+### 4. How to avoid the size of each primary cluster not less than $m_o$(Reviewer5 A16)
+The classical method to avoid codebook collapse is to use k-means method to set proper initialization parameters. We use this method in our model and it really works. You can refer to [1] for more details.
+
+
+
 ### 1. Hyperparameter experiments for $\lambda$
 
 | hyperparameter setting   | #A1   |      #A2      | #A3      | #A4      |
@@ -35,9 +41,6 @@ Since ESANS is a EBR-based model, the deploy of this model is similar to classic
 | $\lambda$=-0.1 | xxx |  xxx |  xxx |   xxx | 
 | $\lambda$=-0.3 | xxx |  xxx |  xxx |   xxx | 
 
-
-### 2. How to avoid the size of each primary cluster not less than $m_o$
-The classical method to avoid codebook collapse is to use k-means method to set proper initialization parameters. We use this method in our model and it really works. You can refer to [1] for more details.
 
 ### 3. Discussions for Equation 12
 Suppose we have $m_c^v$ negatives, each time we randomly select k negatives and generate a virtual negative sample with Equation 11. k range from 2 to $m_o$. In this way, we can get
