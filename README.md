@@ -40,6 +40,16 @@ $m_c^v$ = 2+3+...+ $m_o$-1 + $m_o$ =($m_o$+2)($m_o$-1)/2
 We have re-read the description of our paper and realize that the writing was not as clear as it should be. We sincerely apologize for this and hope our additional description can clarify our idea for you.
 
 
+### 6. Supplementary experiments for different numbers of negative samples on #A2 dataset
+
+| Negative scales   |      Recall@50      | Recall@200      |
+|----------|:-------------:|:-------------:|
+| $m_c$=2, $m_o$=5 |  xxx |  xxx | 
+| $m_c$=1, $m_o$=5 |    xxx   | xxx | 
+| $m_c$=2, $m_o$=4 | xxx |  xxx | 
+| $m_c$=3, $m_o$=5 | xxx |  xxx |
+| $m_c$=2, $m_o$=6 | xxx |  xxx |
+
 ### 1. Hyperparameter experiments for $\lambda$
 
 | hyperparameter setting   | #A1   |      #A2      | #A3      | #A4      |
@@ -50,16 +60,6 @@ We have re-read the description of our paper and realize that the writing was no
 | $\lambda$=-0.1 | xxx |  xxx |  xxx |   xxx | 
 | $\lambda$=-0.3 | xxx |  xxx |  xxx |   xxx | 
 
-
-### 4. Supplementary experiments for different numbers of negative samples on #A2 dataset
-
-| Negative scales   |      Recall@50      | Recall@200      |
-|----------|:-------------:|:-------------:|
-| $m_c$=2, $m_o$=5 |  xxx |  xxx | 
-| $m_c$=1, $m_o$=5 |    xxx   | xxx | 
-| $m_c$=2, $m_o$=4 | xxx |  xxx | 
-| $m_c$=3, $m_o$=5 | xxx |  xxx |
-| $m_c$=2, $m_o$=6 | xxx |  xxx |
 
 
 
