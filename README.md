@@ -1,6 +1,6 @@
 # ESANS_results
 
-### 1.Hyperparameter experiments for $\lambda$
+### 1. Hyperparameter experiments for $\lambda$
 
 | hyperparameter setting   | #A1   |      #A2      | #A3      | #A4      |
 |----------|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -11,15 +11,15 @@
 | $\lambda$=-0.3 | xxx |  xxx |  xxx |   xxx | 
 
 
-### 2.How to avoid the size of each primary cluster not less than $m_o$
+### 2. How to avoid the size of each primary cluster not less than $m_o$
 The classical method to avoid codebook collapse is to use k-means method to set proper initialization parameters. We use this method in our model and it really works. You can refer to [1] for more details.
 
-### 3.Discussions for Equation 12
+### 3. Discussions for Equation 12
 Suppose we have $m_o$ negatives, each time we randomly select k negatives and generate a virtual negative sample with Equation 11. k range from 2 to $m_o$. In this way, we can get
 2+3+...+$m_o-1$+$m_o$=($m_o$+2)($m_o$-1)/2
 We have re-read the description of our paper and realize that the writing was not as clear as it should be. We sincerely apologize for this and hope our additional description can clarify our idea for you.
 
-### 4.Supplementary experiments for different numbers of negative samples on #A2 dataset
+### 4. Supplementary experiments for different numbers of negative samples on #A2 dataset
 
 | Negative scales   |      Recall@50      | Recall@200      |
 |----------|:-------------:|:-------------:|
@@ -29,7 +29,7 @@ We have re-read the description of our paper and realize that the writing was no
 | $m_c$=3, $m_o$=5 | xxx |  xxx |
 | $m_c$=2, $m_o$=6 | xxx |  xxx |
 
-### 5.Training Cost for ESANS and baseline methods on #A2 dataset
+### 5. Training Cost for ESANS and baseline methods on #A2 dataset
 | Method   |      Time Costs      |
 |----------|:-------------:|
 | UNS |  xxx | 
