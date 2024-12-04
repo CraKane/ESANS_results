@@ -9,7 +9,7 @@
 | debiased MNS | xxx | 
 | MixGCF | xxx | 
 | FairNeg | xxx | 
-| Ada- $\tau$ | xxx | 
+| Ada-{$\tau$} | xxx | 
 | ESANS(ours) | xxx | 
 
 Result Analysis:
