@@ -1,6 +1,6 @@
 # ESANS_results
 
-## Training Cost for different methods：
+### Training Cost for different methods：
 
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
