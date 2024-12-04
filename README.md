@@ -3,7 +3,7 @@
 ### Hyperparameter experiments for $\lambda$
 
 | hyperparameter setting   | #A1   |      #A2      | #A3      | #A4      |
-|----------|:-------------:|:-------------:|:-------------:|
+|----------|:-------------:|:-------------:|:-------------:|:-------------:|
 | $\lambda$=0.5 |  xxx |  xxx |   xxx |   xxx | 
 | $\lambda$=0.3 |    xxx   | xxx |   xxx |   xxx | 
 | $\lambda$=0.1 | xxx |  xxx |   xxx |   xxx | 
