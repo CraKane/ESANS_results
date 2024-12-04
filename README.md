@@ -9,7 +9,6 @@
 | $\lambda$=0.1 | xxx |  xxx |   xxx |   xxx | 
 | $\lambda$=-0.1 | xxx |  xxx |  xxx |   xxx | 
 | $\lambda$=-0.3 | xxx |  xxx |  xxx |   xxx | 
-| $\lambda$=-0.5 | xxx |  xxx |  xxx |   xxx | 
 
 
 ### How to avoid the size of each primary cluster not less than $m_o$
