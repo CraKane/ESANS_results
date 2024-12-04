@@ -3,8 +3,10 @@
 ### Training Cost for ESANS and baseline methods on #A2：
 | Method   |      Time Cost      |
 |----------|:-------------:|
-| UNS |  left-aligned | 
-| PNS |    centered   |
-| debiased MNS | right-aligned | 
-| FairNeg | right-aligned | 
-| Ada $\tau$ | right-aligned | 
+| UNS |  xxx | 
+| PNS |    xxx   |
+| debiased MNS | xxx | 
+| MixGCF | xxx | 
+| FairNeg | xxx | 
+| Ada-$\tau$ | xxx | 
+| ESANS(ours) | xxx | 
