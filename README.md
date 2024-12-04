@@ -29,6 +29,12 @@ Since ESANS is a EBR-based model, the deploy of this model is similar to classic
 ### 4. How to avoid the size of each primary cluster not less than $m_o$(Reviewer5 A16)
 The classical method to avoid codebook collapse is to use k-means method to set proper initialization parameters. We use this method in our model and it really works. You can refer to [1] for more details.
 
+### 5. Discussions for Equation 12(Reviewer5 A17)
+Suppose we have $m_c^v$ negatives, each time we randomly select k negatives and generate a virtual negative sample with Equation 11. k range from 2 to $m_o$. In this way, we can get
+
+$m_c^v$ = 2+3+...+ $m_o$-1 + $m_o$ =($m_o$+2)($m_o$-1)/2
+
+We have re-read the description of our paper and realize that the writing was not as clear as it should be. We sincerely apologize for this and hope our additional description can clarify our idea for you.
 
 
 ### 1. Hyperparameter experiments for $\lambda$
@@ -41,13 +47,6 @@ The classical method to avoid codebook collapse is to use k-means method to set 
 | $\lambda$=-0.1 | xxx |  xxx |  xxx |   xxx | 
 | $\lambda$=-0.3 | xxx |  xxx |  xxx |   xxx | 
 
-
-### 3. Discussions for Equation 12
-Suppose we have $m_c^v$ negatives, each time we randomly select k negatives and generate a virtual negative sample with Equation 11. k range from 2 to $m_o$. In this way, we can get
-
-$m_c^v$ = 2+3+...+ $m_o$-1 + $m_o$ =($m_o$+2)($m_o$-1)/2
-
-We have re-read the description of our paper and realize that the writing was not as clear as it should be. We sincerely apologize for this and hope our additional description can clarify our idea for you.
 
 ### 4. Supplementary experiments for different numbers of negative samples on #A2 dataset
 
