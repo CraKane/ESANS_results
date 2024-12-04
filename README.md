@@ -28,11 +28,11 @@ We have re-read the description of our paper and realize that the writing was no
 
 | Negative scales   |      Recall@50      | Recall@200      |
 |----------|:-------------:|:-------------:|
-| $m_c$=2,$m_o$=5 |  xxx |  xxx | 
-| $m_c$=1,$m_o$=5 |    xxx   | xxx | 
-| $m_c$=2,$m_o$=4 | xxx |  xxx | 
-| $m_c$=3,$m_o$=5 | xxx |  xxx |
-| $m_c$=2,$m_o$=6 | xxx |  xxx |
+| $m_c$=2, $m_o$=5 |  xxx |  xxx | 
+| $m_c$=1, $m_o$=5 |    xxx   | xxx | 
+| $m_c$=2, $m_o$=4 | xxx |  xxx | 
+| $m_c$=3, $m_o$=5 | xxx |  xxx |
+| $m_c$=2, $m_o$=6 | xxx |  xxx |
 
 
 
