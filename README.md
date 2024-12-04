@@ -1,9 +1,10 @@
 # ESANS_results
 
-### Training Cost for different methods：
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+### Training Cost for ESANS and baseline methods on #A2：
+| Method   |      Time Cost      |
+|----------|:-------------:|
+| UNS |  left-aligned | 
+| PNS |    centered   |
+| debiased MNS | right-aligned | 
+| FairNeg | right-aligned | 
+| Ada \tau | right-aligned | 
