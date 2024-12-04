@@ -7,4 +7,4 @@
 | PNS |    centered   |
 | debiased MNS | right-aligned | 
 | FairNeg | right-aligned | 
-| Ada \tau | right-aligned | 
+| Ada $\tau$ | right-aligned | 
