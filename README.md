@@ -24,7 +24,7 @@ Suppose we have $m_o$ negatives, each time we randomly select k negatives and ge
 2+3+...+$m_o-1$+$m_o$=($m_o$+2)($m_o$-1)/2
 We have re-read the description of our paper and realize that the writing was not as clear as it should be. We sincerely apologize for this and hope our additional description can clarify our idea for you.
 
-### Supplementary experiment for different numbers of negative samples
+### Supplementary experiment for different numbers of negative samples on #A2
 
 | Negative scales   |      Recall@50      | Recall@200      |
 |----------|:-------------:|:-------------:|
