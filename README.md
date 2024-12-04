@@ -22,6 +22,9 @@
 | w/o behavior-based modal | xxx |  xxx |
 
 
+### 3. Online environment description(Reviewer5 A9)
+Since ESANS is a EBR-based model, the deploy of this model is similar to classical two-tower model. We select the country of #A2 to validate our model and conduct our online experiment from September 13 to 19, 2024. Based on our experience, the increase in traffic during the experiment is highly reliable.
+
 ### 1. Hyperparameter experiments for $\lambda$
 
 | hyperparameter setting   | #A1   |      #A2      | #A3      | #A4      |
