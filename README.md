@@ -1,5 +1,17 @@
 # ESANS_results
 
+### Hyperparameter experiments for $\lambda$
+
+| #A1   |      #A2      | #A3      | #A4      |
+|----------|:-------------:|:-------------:|
+| $\lambda$=0.5 |  xxx |  xxx |   xxx |   xxx | 
+| $\lambda$=0.3 |    xxx   | xxx |   xxx |   xxx | 
+| $\lambda$=0.1 | xxx |  xxx |   xxx |   xxx | 
+| $\lambda$=-0.1 | xxx |  xxx |  xxx |   xxx | 
+| $\lambda$=-0.3 | xxx |  xxx |  xxx |   xxx | 
+| $\lambda$=-0.5 | xxx |  xxx |  xxx |   xxx | 
+
+
 ### How to avoid the size of each primary cluster not less than $m_o$
 The classical method to avoid codebook collapse is to use k-means method to set proper initialization parameters. We use this method in our model and it really works. You can refer to [1] for more details.
 
