@@ -11,6 +11,7 @@
 | Ada - $\tau$ | xxx | 
 | ESANS(ours) | xxx | 
 
+
 ### 2. Modality ablation study on #A2 dataset(Reviewer5 A4)
 
 | Methods   |      Recall@50      | Recall@200      |
@@ -19,6 +20,7 @@
 | w/o visual modal |    xxx   | xxx | 
 | w/o textual modal | xxx |  xxx | 
 | w/o behavior-based modal | xxx |  xxx |
+
 
 ### 1. Hyperparameter experiments for $\lambda$
 
