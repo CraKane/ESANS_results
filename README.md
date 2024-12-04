@@ -1,5 +1,25 @@
 # ESANS_results
 
+### 1. Training Cost for ESANS and baseline methods on #A2 dataset(Reviewer5 A2)
+| Method   |      Time Costs      |
+|----------|:-------------:|
+| UNS |  xxx | 
+| PNS |    xxx   |
+| debiased MNS | xxx | 
+| MixGCF | xxx | 
+| FairNeg | xxx | 
+| Ada - $\tau$ | xxx | 
+| ESANS(ours) | xxx | 
+
+### 2. Modality ablation study on #A2 dataset(Reviewer5 A4)
+
+| Methods   |      Recall@50      | Recall@200      |
+|----------|:-------------:|:-------------:|
+| Tree modals |  xxx |  xxx | 
+| w/o visual modal |    xxx   | xxx | 
+| w/o textual modal | xxx |  xxx | 
+| w/o behavior-based modal | xxx |  xxx |
+
 ### 1. Hyperparameter experiments for $\lambda$
 
 | hyperparameter setting   | #A1   |      #A2      | #A3      | #A4      |
@@ -31,16 +51,6 @@ We have re-read the description of our paper and realize that the writing was no
 | $m_c$=3, $m_o$=5 | xxx |  xxx |
 | $m_c$=2, $m_o$=6 | xxx |  xxx |
 
-### 5. Training Cost for ESANS and baseline methods on #A2 dataset
-| Method   |      Time Costs      |
-|----------|:-------------:|
-| UNS |  xxx | 
-| PNS |    xxx   |
-| debiased MNS | xxx | 
-| MixGCF | xxx | 
-| FairNeg | xxx | 
-| Ada - $\tau$ | xxx | 
-| ESANS(ours) | xxx | 
 
 Result Analysis:
 
