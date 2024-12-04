@@ -15,7 +15,7 @@
 The classical method to avoid codebook collapse is to use k-means method to set proper initialization parameters. We use this method in our model and it really works. You can refer to [1] for more details.
 
 ### 3. Discussions for Equation 12
-Suppose we have $m_o$ negatives, each time we randomly select k negatives and generate a virtual negative sample with Equation 11. k range from 2 to $m_o$. In this way, we can get
+Suppose we have $m_c^v$ negatives, each time we randomly select k negatives and generate a virtual negative sample with Equation 11. k range from 2 to $m_o$. In this way, we can get
 
 $m_c^v$ = 2+3+...+ $m_o$-1 + $m_o$ =($m_o$+2)($m_o$-1)/2
 
