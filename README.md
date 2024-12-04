@@ -1,6 +1,19 @@
 # ESANS_results
 
-### 1. Training Cost for ESANS and baseline methods on #A2 dataset(Reviewer5 A2)
+### 0. separate impacts of interpolation on simple negatives and interpolation on hard negatives(Reviewer1 A6)
+| Method   |      Time Costs      |
+|----------|:-------------:|
+| UNS |  xxx | 
+| PNS |    xxx   |
+| debiased MNS | xxx | 
+| MixGCF | xxx | 
+| FairNeg | xxx | 
+| Ada - $\tau$ | xxx | 
+| ESANS(ours) | xxx | 
+
+
+
+### 1. Training Cost for ESANS and baseline methods on #A2 dataset(Reviewer1 A1, Reviewer5 A2)
 | Method   |      Time Costs      |
 |----------|:-------------:|
 | UNS |  xxx | 
@@ -24,7 +37,7 @@ Our method demonstrates a competitive advantage in terms of time efficiency comp
 | w/o textual modal | xxx |  xxx | 
 | w/o behavior-based modal | xxx |  xxx |
 
-### 3. Hyperparameter experiments for $\lambda$(Reviewer5 A8)
+### 3. Hyperparameter experiments for $\lambda$(Reviewer3 A1, Reviewer4 A2, Reviewer5 A8)
 
 | hyperparameter setting   | #A1   |      #A2      | #A3      | #A4      |
 |----------|:-------------:|:-------------:|:-------------:|:-------------:|
