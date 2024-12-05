@@ -62,14 +62,15 @@ $m_c^v$ = 2+3+...+ $m_o$-1 + $m_o$ =($m_o$+2)($m_o$-1)/2
 
 ### 8. Supplementary experiments for different numbers of negative samples on #A2 dataset(Reviewer5 A20)
 
-| Negative scales   |      Recall@50      | Recall@200      |
-|----------|:-------------:|:-------------:|
-| $m_c$=2, $m_o$=5 |  xxx |  xxx | 
-| $m_c$=1, $m_o$=5 |    xxx   | xxx | 
-| $m_c$=2, $m_o$=4 | xxx |  xxx | 
-| $m_c$=3, $m_o$=5 | xxx |  xxx |
-| $m_c$=2, $m_o$=6 | xxx |  xxx |
+|Negative scales|Recall@50|Recall@200|
+|-|:-:|:-:|
+|$m_c$=2, $m_o$=5|0.3887|0.6216|
+|$m_c$=2, $m_o$=4|0.3835|0.6187|
+|$m_c$=2, $m_o$=6|0.3921|0.6232|
+|$m_c$=1, $m_o$=5|0.3794|0.6175|
+|$m_c$=3, $m_o$=5|0.3950|0.6251|
 
+3653
 
 
 [1].Adrian Łańcucki, Jan Chorowski, Guillaume Sanchez, Ricard Marxer, Nanxin Chen, Hans JGA Dolfing, Sameer Khurana, Tanel Alumäe, and Antoine Laurent.Robust training of vector quantized bottleneck models.In IJCNN, pages 1–7. IEEE, 2020.
