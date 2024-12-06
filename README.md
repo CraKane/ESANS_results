@@ -65,12 +65,19 @@ $m_c^v$ = 2+3+...+ $m_o$-1 + $m_o$ =($m_o$+2)($m_o$-1)/2
 |Negative scales|Recall@50|Recall@200|
 |-|:-:|:-:|
 |$m_c$=2, $m_o$=5|0.3887|0.6216|
-|$m_c$=2, $m_o$=4|0.3835|0.6187|
-|$m_c$=2, $m_o$=6|0.3921|0.6232|
-|$m_c$=1, $m_o$=5|0.3794|0.6175|
-|$m_c$=3, $m_o$=5|0.3950|0.6251|
+|$m_c$=2, $m_o$=4|0.3875|0.6197|
+|$m_c$=2, $m_o$=6|0.3899|0.6232|
+|$m_c$=1, $m_o$=5|0.3793|0.6164|
+|$m_c$=3, $m_o$=5|0.3930|0.6241|
 
-3653
+
+|Method|Amazon Elecs|Pixel-Rec|#A1|#A2|#A3|#A4|AVG|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|FairNeg|0.3887|0.6216|0.6216|0.6216|0.6216|0.6216|0.6216|
+|Ada - $\tau$|0.3875|0.6197|0.6216|0.6216|0.6216|0.6216|0.6216|
+|ESANS|0.3899|0.6232|0.6216|0.6216|0.6216|0.6216|0.6216|
+
+
 
 
 [1].Adrian Łańcucki, Jan Chorowski, Guillaume Sanchez, Ricard Marxer, Nanxin Chen, Hans JGA Dolfing, Sameer Khurana, Tanel Alumäe, and Antoine Laurent.Robust training of vector quantized bottleneck models.In IJCNN, pages 1–7. IEEE, 2020.
