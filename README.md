@@ -83,7 +83,7 @@ Recall@50
 Recall@50
 
 
-***The mean and variance on Recall@k after repeating the experiments for 5 times
+*** The mean and variance on Recall@k after repeating the experiments for 5 times
 |Dataset|FairNeg|Ada - $\tau$|ESANS|
 |-|:-:|:-:|:-:|
 |Amazon R@50|0.1798 $\pm$ 0.0034|0.2045 $\pm$ 0.0020|0.2121 $\pm$ 0.0015|
@@ -99,7 +99,7 @@ Recall@50
 |#A4 R@50|0.3969 $\pm$ 0.0025|0.4060 $\pm$ 0.0017|0.4176 $\pm$ 0.0012|
 |#A4 R@200|0.6450 $\pm$ 0.0040|0.6435 $\pm$ 0.0024|0.6599 $\pm$ 0.0026|
 
-***The p-value results of ESANS compared with FairNeg and Ada - $\tau$
+### The p-value results of ESANS compared with FairNeg and Ada - $\tau$
 |Method|Amazon R@50|Amazon R@200|Pixel R@50|Pixel R@100|#A1 R@50|#A1 R@200|#A2 R@50|#A2 R@100|#A3 R@50|#A3 R@100|#A4 R@50|#A4 R@100|
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |FairNeg|<0.001|<0.001|<0.001|<0.01|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|
