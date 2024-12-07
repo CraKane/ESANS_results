@@ -81,27 +81,26 @@ Recall@50
 
 
 Recall@50
-|Dataset|FairNeg_avg|FairNeg_std|Ada - $\tau$ _avg|Ada - $\tau$ _std|ESANS_avg|ESANS_std|
-|-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Amazon R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|Amazon R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|Pixel R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|Pixel R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A1 R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A1 R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A2 R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A2 R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A3 R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A3 R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A4 R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-|#A4 R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|
-
+|Dataset|FairNeg|Ada - $\tau$|ESANS|
+|-|:-:|:-:|:-:|
+|Amazon R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|
+|Amazon R@200|0.4716 $\pm$ 0.0013|0 $\pm$ 0|0 $\pm$ 0|
+|Pixel R@50|0.0829 $\pm$ 0.0019|0 $\pm$ 0|0 $\pm$ 0|
+|Pixel R@200|0.1781 $\pm$ 0.0012|0 $\pm$ 0|0 $\pm$ 0|
+|#A1 R@50|0.4801 $\pm$ 0.0010|0 $\pm$ 0|0 $\pm$ 0|
+|#A1 R@200|0.6691 $\pm$ 0.0032|0 $\pm$ 0|0 $\pm$ 0|
+|#A2 R@50|0.3674 $\pm$ 0.0018|0 $\pm$ 0|0 $\pm$ 0|
+|#A2 R@200|0.6041 $\pm$ 0.0019|0 $\pm$ 0|0 $\pm$ 0|
+|#A3 R@50|0.4030 $\pm$ 0.0012|0 $\pm$ 0|0 $\pm$ 0|
+|#A3 R@200|0.6684 $\pm$ 0.0005|0 $\pm$ 0|0 $\pm$ 0|
+|#A4 R@50|0.3969 $\pm$ 0.0025|0 $\pm$ 0|0 $\pm$ 0|
+|#A4 R@200|0.6450 $\pm$ 0.0040|0 $\pm$ 0|0 $\pm$ 0|
 
 Recall@50
 |Method|Amazon R@50|Amazon R@200|Pixel R@50|Pixel R@100|#A1 R@50|#A1 R@200|#A2 R@50|#A2 R@100|#A3 R@50|#A3 R@100|#A4 R@50|#A4 R@100|
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|ESANS vs FairNeg|0.1798 $\pm$ 0.0034|0.4705|0.0836|0.1782|0.4790|0.6688|0.3669|0.6052|0.4043|0.6687|0.3983|0.6501|
-|ESANS vs Ada - $\tau$|0.2018|0.4873|0.0763|0.1684|0.4694|0.6757|0.3538|0.5883|0.4097|0.6625|0.4046|0.6437|
+|vs FairNeg|0.1798|0.4705|0.0836|0.1782|0.4790|0.6688|0.3669|0.6052|0.4043|0.6687|0.3983|0.6501|
+|vs Ada - $\tau$|0.2018|0.4873|0.0763|0.1684|0.4694|0.6757|0.3538|0.5883|0.4097|0.6625|0.4046|0.6437|
 
 
 We run our ESANS as well as the best baselines(Ada - $\tau$ and FairNeg) for a total of 5 times on public and industrial datasets. We present the mean, variance, and significance test p-values in the table. The experimental results strongly indicate that our ESANS is significantly superior to the two strong baselines. 有语法问题吗？
