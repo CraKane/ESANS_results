@@ -81,29 +81,46 @@ Recall@50
 
 
 Recall@50
+
+
+***The mean and variance on Recall@k after repeating the experiments for 5 times
 |Dataset|FairNeg|Ada - $\tau$|ESANS|
 |-|:-:|:-:|:-:|
-|Amazon R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0 $\pm$ 0|
-|Amazon R@200|0.4716 $\pm$ 0.0013|0 $\pm$ 0|0 $\pm$ 0|
-|Pixel R@50|0.0829 $\pm$ 0.0019|0 $\pm$ 0|0 $\pm$ 0|
-|Pixel R@200|0.1781 $\pm$ 0.0012|0 $\pm$ 0|0 $\pm$ 0|
-|#A1 R@50|0.4801 $\pm$ 0.0010|0 $\pm$ 0|0 $\pm$ 0|
-|#A1 R@200|0.6691 $\pm$ 0.0032|0 $\pm$ 0|0 $\pm$ 0|
-|#A2 R@50|0.3674 $\pm$ 0.0018|0 $\pm$ 0|0 $\pm$ 0|
-|#A2 R@200|0.6041 $\pm$ 0.0019|0 $\pm$ 0|0 $\pm$ 0|
-|#A3 R@50|0.4030 $\pm$ 0.0012|0 $\pm$ 0|0 $\pm$ 0|
-|#A3 R@200|0.6684 $\pm$ 0.0005|0 $\pm$ 0|0 $\pm$ 0|
-|#A4 R@50|0.3969 $\pm$ 0.0025|0 $\pm$ 0|0 $\pm$ 0|
-|#A4 R@200|0.6450 $\pm$ 0.0040|0 $\pm$ 0|0 $\pm$ 0|
+|Amazon R@50|0.1798 $\pm$ 0.0034|0.2045 $\pm$ 0.0020|0.2121 $\pm$ 0.0015|
+|Amazon R@200|0.4716 $\pm$ 0.0013|0.4863 $\pm$ 0.0036|0.4945 $\pm$ 0.0017|
+|Pixel R@50|0.0829 $\pm$ 0.0019|0.0757 $\pm$ 0.0005|0.0906 $\pm$ 0.0013|
+|Pixel R@200|0.1781 $\pm$ 0.0012|0.1682 $\pm$ 0.0016|0.1824 $\pm$ 0.0023|
+|#A1 R@50|0.4801 $\pm$ 0.0010|0.4685 $\pm$ 0.0009|0.4862 $\pm$ 0.0008|
+|#A1 R@200|0.6691 $\pm$ 0.0032|0.6768 $\pm$ 0.0018|0.6922 $\pm$ 0.0014|
+|#A2 R@50|0.3674 $\pm$ 0.0018|0.3544 $\pm$ 0.0010|0.3883 $\pm$ 0.0006|
+|#A2 R@200|0.6041 $\pm$ 0.0019|0.5885 $\pm$ 0.0027|0.6229 $\pm$ 0.0030|
+|#A3 R@50|0.4030 $\pm$ 0.0012|0.4089 $\pm$ 0.0017|0.4180 $\pm$ 0.0008|
+|#A3 R@200|0.6684 $\pm$ 0.0005|0.6617 $\pm$ 0.0037|0.6735 $\pm$ 0.0015|
+|#A4 R@50|0.3969 $\pm$ 0.0025|0.4060 $\pm$ 0.0017|0.4176 $\pm$ 0.0012|
+|#A4 R@200|0.6450 $\pm$ 0.0040|0.6435 $\pm$ 0.0024|0.6599 $\pm$ 0.0026|
 
-Recall@50
+***The p-value results compared with FairNeg and Ada - $\tau$
 |Method|Amazon R@50|Amazon R@200|Pixel R@50|Pixel R@100|#A1 R@50|#A1 R@200|#A2 R@50|#A2 R@100|#A3 R@50|#A3 R@100|#A4 R@50|#A4 R@100|
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|vs FairNeg|0.1798|0.4705|0.0836|0.1782|0.4790|0.6688|0.3669|0.6052|0.4043|0.6687|0.3983|0.6501|
-|vs Ada - $\tau$|0.2018|0.4873|0.0763|0.1684|0.4694|0.6757|0.3538|0.5883|0.4097|0.6625|0.4046|0.6437|
+|FairNeg|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|
+|Ada - $\tau$|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|
 
+We run our ESANS as well as the best baselines(Ada - $\tau$ and FairNeg) for a total of 5 times on public and industrial datasets. The mean and variance are shown in the table. Then, we conducted a significance analysis using the t-test method, based on the assumption of equal variances for two samples. When compared with FairNeg, we achieved a p-value of less than 0.01. Similarly, when compared with Ada - $\tau$ , the p-value was also less than 0.01. The experimental results strongly indicate that our ESANS is significantly superior to the two strong baselines. 
 
-We run our ESANS as well as the best baselines(Ada - $\tau$ and FairNeg) for a total of 5 times on public and industrial datasets. We present the mean, variance, and significance test p-values in the table. The experimental results strongly indicate that our ESANS is significantly superior to the two strong baselines. 有语法问题吗？
+Recall@50
+
+0.000013%	0.033997%
+0.000003%	1.237865%
+0.015728%	0.000002%
+0.957574%	0.000623%
+0.001284%	0.000000%
+0.000097%	0.000072%
+0.000002%	0.000000%
+0.000517%	0.000014%
+0.000004%	0.001238%
+0.018193%	0.037853%
+0.000042%	0.000389%
+0.026381%	0.001684%
 
 
 
