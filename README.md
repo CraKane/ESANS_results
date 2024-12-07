@@ -102,8 +102,22 @@ Recall@50
 ***The p-value results compared with FairNeg and Ada - $\tau$
 |Method|Amazon R@50|Amazon R@200|Pixel R@50|Pixel R@100|#A1 R@50|#A1 R@200|#A2 R@50|#A2 R@100|#A3 R@50|#A3 R@100|#A4 R@50|#A4 R@100|
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|FairNeg|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|
-|Ada - $\tau$|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|<0.01|
+|FairNeg|<0.001|<0.001|<0.001|<0.01|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|
+|Ada - $\tau$|<0.001|<0.01|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|
+
+0.000013%	0.033997%
+0.000003%	0.351828%
+0.015728%	0.000002%
+0.957574%	0.000623%
+0.001284%	0.000000%
+0.000097%	0.000072%
+0.000002%	0.000000%
+0.000517%	0.000014%
+0.000004%	0.001238%
+0.018193%	0.037853%
+0.000042%	0.000389%
+0.026381%	0.001684%
+![image](https://github.com/user-attachments/assets/867ef6e7-c662-4a9e-9e62-a2b69fe34b4b)
 
 We run our ESANS as well as the best baselines(Ada - $\tau$ and FairNeg) for a total of 5 times on public and industrial datasets. The mean and variance are shown in the table. Then, we conducted a significance analysis using the t-test method, based on the assumption of equal variances for two samples. When compared with FairNeg, we achieved a p-value of less than 0.01. Similarly, when compared with Ada - $\tau$ , the p-value was also less than 0.01. The experimental results strongly indicate that our ESANS is significantly superior to the two strong baselines. 
 
