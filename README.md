@@ -83,7 +83,7 @@ Recall@50
 Recall@50
 |Dataset||FairNeg_avg|FairNeg_std|FairNeg_p|Ada - $\tau$ _avg|Ada - $\tau$ _std|Ada - $\tau$ _p|ESANS_avg|ESANS_std|ESANS_p|
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Amazon R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0|
+|Amazon R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|
 |Amazon R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0|
 |Pixel R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0|
 |Pixel R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0 $\pm$ 0|0|
