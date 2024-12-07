@@ -83,6 +83,9 @@ Recall@50
 Recall@50
 
 
+
+
+
 ### The mean and variance on Recall@k after repeating the experiments for 5 times
 |Dataset|FairNeg|Ada - $\tau$|ESANS|
 |-|:-:|:-:|:-:|
@@ -105,6 +108,26 @@ Recall@50
 |FairNeg|<0.001|<0.001|<0.001|<0.01|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|
 |Ada - $\tau$|<0.001|<0.01|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|<0.001|
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0.000013%	0.033997%
 0.000003%	0.351828%
 0.015728%	0.000002%
@@ -120,6 +143,15 @@ Recall@50
 ![image](https://github.com/user-attachments/assets/867ef6e7-c662-4a9e-9e62-a2b69fe34b4b)
 
 We run our ESANS as well as the best baselines(Ada - $\tau$ and FairNeg) for a total of 5 times on public and industrial datasets. The mean and variance are shown in the table. Then, we conducted a significance analysis using the t-test method, based on the assumption of equal variances for two samples. When compared with FairNeg, we achieved a p-value of less than 0.01. Similarly, when compared with Ada - $\tau$ , the p-value was also less than 0.01. The experimental results strongly indicate that our ESANS is significantly superior to the two strong baselines. 
+
+
+
+
+
+
+
+
+
 
 Recall@50
 
