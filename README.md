@@ -83,7 +83,7 @@ Recall@50
 Recall@50
 
 
-*** The mean and variance on Recall@k after repeating the experiments for 5 times
+### The mean and variance on Recall@k after repeating the experiments for 5 times
 |Dataset|FairNeg|Ada - $\tau$|ESANS|
 |-|:-:|:-:|:-:|
 |Amazon R@50|0.1798 $\pm$ 0.0034|0.2045 $\pm$ 0.0020|0.2121 $\pm$ 0.0015|
