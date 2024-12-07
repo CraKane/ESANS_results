@@ -96,9 +96,7 @@ Recall@50
 |#A4 R@50|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|
 |#A4 R@200|0.1798 $\pm$ 0.0034|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|0 $\pm$ 0|0 $\pm$ 0|0|
 
-
-
-
+We run our ESANS as well as the best baselines(Ada - $\tau$ and FairNeg) for a total of 5 times on public and industrial datasets. We present the mean, variance, and significance test p-values in the table. The experimental results strongly indicate that our ESANS is significantly superior to the two strong baselines. 有语法问题吗？
 
 
 
